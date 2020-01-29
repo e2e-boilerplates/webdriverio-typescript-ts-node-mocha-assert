@@ -1,4 +1,4 @@
-import { expect } from "chai";
+import { strictEqual } from "assert";
 
 describe("Sandbox", () => {
   before(() => {
@@ -9,7 +9,7 @@ describe("Sandbox", () => {
     const title: string = browser.getTitle();
     const header: string = $("h1").getText();
 
-    expect(title).to.eq("Sandbox");
-    expect(header).to.eq("Sandbox");
+    strictEqual(title, "Sandbox");
+    strictEqual(header, "Sandbox");
   });
 });
