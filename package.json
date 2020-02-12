@@ -29,7 +29,7 @@
     "@wdio/mocha-framework": "5.18.6",
     "@wdio/sync": "5.18.6",
     "chromedriver": "79.0.3",
-    "husky": "4.2.2",
+    "husky": "4.2.3",
     "lint-staged": "10.0.7",
     "mocha": "7.0.1",
     "prettier": "1.19.1",
