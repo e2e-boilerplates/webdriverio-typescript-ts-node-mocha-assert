@@ -1,25 +1,6 @@
 {
-  "name": "webdriverio-typescript-ts-node-mocha-chai-assert",
-  "version": "1.0.0",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "description": "WebdriverIO end-to-end test automation boilerplate project. Using TypeScript, ES6 modules, ts-node, Mocha, Chai and Assert",
-  "scripts": {
-    "pretty": "npx prettier --no-config './spec/*.ts' --write",
-    "lint": "npx tslint -c tslint.json './spec/*.ts'",
-    "test": "npx wdio"
-  },
-  "keywords": [
-    "webdriverio",
-    "typescript",
-    "es6",
-    "ts-node",
-    "mocha",
-    "e2e",
-    "boilerplate",
-    "example",
-    "e2e test"
-  ],
-  "author": "Girma Nigusse",
-  "license": "MIT",
   "devDependencies": {
     "@types/mocha": "7.0.1",
     "@types/node": "12.12.29",
@@ -29,6 +10,7 @@
     "@wdio/mocha-framework": "5.18.7",
     "@wdio/sync": "5.18.7",
     "chromedriver": "79.0.3",
+    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
     "mocha": "7.1.0",
@@ -45,10 +27,34 @@
       "pre-commit": "lint-staged"
     }
   },
+  "keywords": [
+    "assert",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "mocha",
+    "ts-node",
+    "typescript",
+    "webdriverio"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,js,css,json,md}": [
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "name": "webdriverio-typescript-ts-node-mocha-assert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/webdriverio-typescript-ts-node-mocha-assert.git"
+  },
+  "scripts": {
+    "pretty": "npx prettier --no-config './spec/*.ts' --write",
+    "lint": "npx tslint -c tslint.json './spec/*.ts'",
+    "test": "npx wdio"
+  },
+  "version": "1.0.0"
 }
