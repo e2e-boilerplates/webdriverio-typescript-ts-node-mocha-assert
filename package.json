@@ -46,8 +46,8 @@
     "url": "git+https://github.com/e2e-boilerplates/webdriverio-typescript-ts-node-mocha-assert.git"
   },
   "scripts": {
-    "pretty": "npx prettier --no-config './spec/*.ts' --write",
     "lint": "npx tslint -c tslint.json './spec/*.ts'",
+    "pretty": "npx prettier --no-config './spec/*.ts' --write",
     "test": "npx wdio"
   },
   "version": "1.0.0"
