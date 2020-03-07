@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "description": "WebdriverIO end-to-end test automation boilerplate project. Using TypeScript, ES6 modules, ts-node, Mocha, Chai and Assert",
   "devDependencies": {
     "@types/mocha": "7.0.2",
@@ -28,11 +28,6 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "mocha",
     "ts-node",
     "typescript",
