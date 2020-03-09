@@ -1,9 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/issues"
   },
-  "description": "WebdriverIO end-to-end test automation boilerplate. Using Using TypeScript, ts-node, Mocha and Assert.",
+  "description": "WebdriverIO end-to-end test automation boilerplate. using TypeScript, ts-node, Mocha and Assert.",
   "devDependencies": {
     "@types/mocha": "7.0.2",
     "@types/node": "12.12.29",
@@ -32,11 +32,6 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "mocha",
     "ts-node",
     "typescript",

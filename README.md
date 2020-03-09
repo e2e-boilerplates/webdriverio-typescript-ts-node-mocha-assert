@@ -1,12 +1,12 @@
-# WebdriverIO: (TypeScript, ts-node, Mocha, Chai and Assert)
+[![GitHub Actions status | e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert](https://github.com/e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/workflows/webdriverio-typescript-ts-node-mocha-assert/badge.svg)](https://github.com/e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/actions?workflow=webdriverio-typescript-ts-node-mocha-assert)
 
-[![GitHub Actions status | e2e-boilerplates/webdriverio-typescript-ts-node-mocha-chai](https://github.com//e2e-boilerplates/webdriverio-typescript-ts-node-mocha-chai/workflows/webdriverio-typescript-ts-node-mocha-chai/badge.svg)](https://github.com//e2e-boilerplates/webdriverio-typescript-ts-node-mocha-chai/actions?workflow=webdriverio-typescript-ts-node-mocha-chai)
+# WebdriverIO Boilerplate
 
-WebdriverIO end-to-end test automation boilerplate, using TypeScript, ts-node, Mocha, Chai and Assert
+WebdriverIO end-to-end test automation boilerplate, using TypeScript, ts-node, Mocha and Assert.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/webdriverio-typescript-ts-node-mocha-chai-assert.git
-    cd webdriverio-typescript-ts-node-mocha-chai-assert
-    npm install
-    npm run test
+git clone git@github.com:e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert.git
+cd webdriverio-typescript-ts-node-mocha-assert
+npm install
+npm run test
