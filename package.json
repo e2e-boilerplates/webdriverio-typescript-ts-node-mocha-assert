@@ -1,8 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/issues"
   },
+  "dependencies": {},
   "description": "WebdriverIO end-to-end test automation boilerplate. using TypeScript, ts-node, Mocha and Assert.",
   "devDependencies": {
     "@types/mocha": "7.0.2",
@@ -21,6 +22,7 @@
     "ts-node": "8.7.0",
     "tslint": "^6.1.0",
     "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.2.0",
     "typescript": "3.8.3",
     "wdio-chromedriver-service": "5.0.2"
   },
@@ -32,11 +34,6 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "mocha",
     "ts-node",
     "typescript",
@@ -58,8 +55,5 @@
     "pretty": "npx prettier --no-config './spec/*.ts' --write",
     "test": "npx wdio"
   },
-  "version": "1.0.0",
-  "dependencies": {
-    "tslint-plugin-prettier": "^2.2.0"
-  }
+  "version": "1.0.0"
 }
