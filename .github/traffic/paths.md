@@ -1,9 +1,0 @@
-| referrer                                                                                              | count | uniques |
-| :---------------------------------------------------------------------------------------------------- | :---- | :------ |
-| /e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert                                          | 5     | 3       |
-| /e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/blob/master/wdio.conf.js                 | 3     | 1       |
-| /e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/blob/master/package.json                 | 2     | 1       |
-| /e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/pull/61                                  | 2     | 1       |
-| /e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/blob/master/.github/traffic/referrers.md | 1     | 1       |
-| /e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/tree/master/.github                      | 1     | 1       |
-| /e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/tree/master/.github/traffic              | 1     | 1       |
