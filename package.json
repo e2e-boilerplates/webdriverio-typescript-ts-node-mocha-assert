@@ -4,9 +4,9 @@
     "url": "https://github.com/e2e-boilerplate/webdriverio-typescript-ts-node-mocha-assert/issues"
   },
   "dependencies": {
-    "@wdio/cli": "6.1.11",
+    "@wdio/cli": "6.1.12",
     "@wdio/dot-reporter": "6.1.9",
-    "@wdio/local-runner": "6.1.11",
+    "@wdio/local-runner": "6.1.12",
     "@wdio/mocha-framework": "6.1.8",
     "@wdio/sync": "6.1.8",
     "chromedriver": "81.0.0",
@@ -20,7 +20,7 @@
     "@types/mocha": "7.0.2",
     "@types/node": "13.13.6",
     "husky": "4.2.5",
-    "lint-staged": "10.2.2",
+    "lint-staged": "10.2.4",
     "prettier": "2.0.4",
     "tslint": "6.1.2",
     "tslint-config-prettier": "1.18.0",
